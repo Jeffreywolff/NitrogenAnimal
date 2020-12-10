@@ -1,0 +1,13 @@
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\bin\Debug\netcoreapp3.1\NitrogenAnimal.exe
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\bin\Debug\netcoreapp3.1\NitrogenAnimal.deps.json
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\bin\Debug\netcoreapp3.1\NitrogenAnimal.runtimeconfig.json
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\bin\Debug\netcoreapp3.1\NitrogenAnimal.runtimeconfig.dev.json
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\bin\Debug\netcoreapp3.1\NitrogenAnimal.dll
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\bin\Debug\netcoreapp3.1\NitrogenAnimal.pdb
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\obj\Debug\netcoreapp3.1\NitrogenAnimal.csprojAssemblyReference.cache
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\obj\Debug\netcoreapp3.1\NitrogenAnimal.AssemblyInfoInputs.cache
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\obj\Debug\netcoreapp3.1\NitrogenAnimal.AssemblyInfo.cs
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\obj\Debug\netcoreapp3.1\NitrogenAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\obj\Debug\netcoreapp3.1\NitrogenAnimal.dll
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\obj\Debug\netcoreapp3.1\NitrogenAnimal.pdb
+C:\Users\Wolff\OneDrive\Dokument\Github Repos\School\NitrogenAnimal\NitrogenAnimal\NitrogenAnimal\obj\Debug\netcoreapp3.1\NitrogenAnimal.genruntimeconfig.cache

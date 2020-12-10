@@ -42,12 +42,84 @@ namespace NitrogenAnimal
                         break;
                 }
             }
+            loop = true;
+            while (loop)
+            {
+                Console.WriteLine("Choose some accessories: \n" +
+                "1. Leash \n" +
+                "2. Foodbag \n" +
+                "3. Animal House \n" +
+                "4. Schampoo \n" +
+                "5. Drugbox \n" +
+                "6. Toothpaste \n" +
+                "7. Show items, then exit.");
+                int coice = Convert.ToInt32(Console.ReadLine());
 
+                switch (coice)
+                {
+                    case 1:
+                        Leash leash = new Leash();
+                        model.accessories.Add(leash);
+                        break;
+                    case 2:
+                        FoodBag foodBag = new FoodBag();
+                        model.accessories.Add(foodBag);
+                        break;
+                    case 3:
+                        AnimalHouse house = new AnimalHouse();
+                        model.accessories.Add(house);
+                        break;
+                    case 4:
+                        Schampoo schampoo = new Schampoo();
+                        model.accessories.Add(schampoo);
+                        break;
+                    case 5:
+                        DrugBox drugbox = new DrugBox();
+                        model.accessories.Add(drugbox);
+                        break;
+                    case 6:
+                        Toothpaste toothpaste = new Toothpaste();
+                        model.accessories.Add(toothpaste);
+                        break;
+                    case 7:
+                        loop = false;
+                        break;
+                    default:
+                        Console.WriteLine("Not a valid Input");
+                        break;
+                }
+            }
 
+            ShowList(model.animals);
+            ShowList(model.accessories);
 
-            
-
-
+        }
+        private static void ShowList(List<Animal> list)
+        {
+            foreach (var animal in list)
+            {
+                animal.AnimalSound();
+                animal.Consuming();
+                animal.Defecate();
+                animal.Color = "Red";
+                animal.Intelligence = 0.74;
+                Console.WriteLine(animal.Intelligence);
+                Console.WriteLine(animal.Color);
+                Console.WriteLine("\n");
+            }
+        }
+        private static void ShowList(List<Accessories> list)
+        {
+            foreach (var item in list)
+            {
+                item.Open();
+                item.Explode();
+                item.Color = "blue";
+                item.Intelligence = 0.21;
+                Console.WriteLine(item.Color);
+                Console.WriteLine(item.Intelligence);
+                Console.WriteLine("\n");
+            }
         }
     }
 
@@ -60,7 +132,7 @@ namespace NitrogenAnimal
     }
 
 
-     abstract class Animal
+    abstract class Animal
     {
         public void Defecate()
         {
@@ -92,7 +164,8 @@ namespace NitrogenAnimal
             Console.WriteLine("What does the Giraffe say?");
         }
 
-        
+
+
     }
     class Gorilla : Animal
     {
@@ -125,7 +198,7 @@ namespace NitrogenAnimal
 
         public abstract void Explode();
 
-        public string Color{ get; set; }
+        public string Color { get; set; }
 
         public double Intelligence { get; set; }
     }
